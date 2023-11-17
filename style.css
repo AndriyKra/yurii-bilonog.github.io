@@ -1,0 +1,209 @@
+body {
+
+    font-family: Times New Roman;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+	 background-color: white;
+    padding: 10px;
+     width: 100%; /* Розтягуємо навігацію на всю ширину вікна */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Додавання тіні */
+	position: fixed; /* Фіксована позиція */
+    top: 0; /* Закріпити зверху */
+    z-index: 1; /* Відображення поверх всього контенту */
+}
+
+/* Додавання розділювачів між елементами навігації */
+nav ul li:not(:last-child)::after {
+    content: " | "; /* Вміст розділювача */
+    color: #FFCB25; /* Колір розділювача */
+    margin-left: 10px; /* Відступ між розділювачем і наступним елементом */
+    font-weight: bold; /* Зробити розділювач жирним */
+    font-size: 1.7em; /* Зробити розділювач більшим */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transition: color 0.3s; /* Додаємо плавну анімацію для зміни кольору тексту */
+}
+
+nav a:hover {
+    color: #FFCB25; /* Змінюємо колір тексту при наведенні */
+}
+
+
+#Img1 {
+	float: right;
+	margin: 0; /* Видалення зовнішніх відступів */
+    padding: 0; /* Видалення внутрішніх відступів */
+    padding-right: 10px;
+    border: none;
+    height: calc(100vh - 48px);
+ }
+
+#Zah1 {
+	color: black;
+	font-family: Impact;
+	font-size: 72px;
+	text-align: left;
+	padding-bottom: 0cm;
+	padding-right: 12cm;
+	padding-left: 12cm;
+	margin: none;
+}
+
+.line {
+    width: 300px;
+    height: 20px;
+    background-color: #FFCB25;
+    border-radius: 0px;
+    position: absolute;
+    left: 27%;
+    top: 45%;
+}
+
+.line1 {
+	width: 300px;
+    border-radius: 0px;
+    position: absolute;
+    left: 27%;
+    top: 45%;
+    padding-top: 10px;
+}
+
+#P1 {
+	font-family: Times New Roman;
+	font-size: 24px;
+	text-align: justify;
+}
+
+h1 {
+	color: black;
+	font-family: Impact;
+	font-size: 72px;
+	text-align: center;
+	padding-bottom: 0cm;
+}
+
+#Section1 {
+	height: calc(100vh - 48px);
+}
+
+#sport {
+	padding-top: 20px;
+	margin-top: 20px; /* Відступ від попередньої секції */
+	height: calc(100vh + 100px);
+}
+
+#Img2 {
+	float: left;
+	margin: 0; /* Видалення зовнішніх відступів */
+    padding: 0; /* Видалення внутрішніх відступів */
+    padding-left: 10px;
+    border: none;
+    height: calc(100vh - 48px);
+    width: 426px;
+ }
+
+ #Div2 {
+ 	padding-left: 586px;
+ 	padding-right: 200px;
+ }
+ 
+
+#P2 {
+	font-size: 24px;
+	font-style: italic;
+	text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#disqualification {
+	padding-top: 20px;
+	margin-top: 20px; /* Відступ від попередньої секції */
+	height: calc(100vh - 400px);
+}
+
+
+
+#Div4 {
+ 	padding-left: 70px;
+ 	padding-right: 200px;
+ }
+
+ #merits {
+	padding-top: 20px;
+	margin-top: 20px; /* Відступ від попередньої секції */
+}
+
+#Img3 {
+	float: right;
+	margin: 0; /* Видалення зовнішніх відступів */
+    padding: 0; /* Видалення внутрішніх відступів */
+    padding-right: 0px;
+    border: none;
+    height: calc(100vh - 48px);
+ }
+
+ #Zaslugu {
+ 	font-size: 24px;
+ }
+
+ #Div5 {
+
+ 	margin: none;
+ 	padding: 0px;
+ }
+
+ ol {
+    list-style-type: decimal; /* Тип маркера - цифри */
+    padding-left: 300px; /* Відступ від лівого краю */
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+
+li {
+    margin-bottom: 10px; /* Відступ між елементами списку */
+}
+
+footer {
+	background-color: #FFCB25;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	height: 100px;
+	padding-top: 50px;
+}
