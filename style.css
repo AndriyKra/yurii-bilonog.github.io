@@ -68,23 +68,24 @@ nav a:hover {
 	margin: none;
 }
 
-.line {
-    width: 20%;
-    height: 3%;
-    background-color: #FFCB25;
-    border-radius: 0px;
-    position: absolute;
-    left: 27%;
-    top: 45%;
+hr {
+    padding-left: 40%;
+    padding-right: 40%;
+    border: 10px solid #FFCB25; /* товщина та колір лінії */
 }
 
 .line1 {
 	width: 20%;
     border-radius: 0px;
-    position: absolute;
-    left: 27%;
-    top: 45%;
-    padding-top: 10px;
+   padding-left: 27%;
+    padding-top: 0%;
+}
+
+#P12 {
+    padding-top: 0%;
+    font-family: Times New Roman;
+    font-size: 24px;
+    text-align: justify;
 }
 
 #P1 {
@@ -98,15 +99,14 @@ h1 {
 	font-family: Impact;
 	font-size: 72px;
 	text-align: center;
-	padding-bottom: 0cm;
+	padding-bottom: 0%;
 }
 
 
 
 #sport {
-	padding-top: 20%;
-	margin-top: 20px; /* Відступ від попередньої секції */
-	height: calc(100vh + 100px);
+	padding-top: 5%;
+	margin-top: 5%; /* Відступ від попередньої секції */
 }
 
 #Img2 {
@@ -115,8 +115,7 @@ h1 {
     padding: 0; /* Видалення внутрішніх відступів */
     padding-left: 10px;
     border: none;
-    height: calc(100vh - 48px);
-    width: 426px;
+    height: 80%;
  }
 
  #Div2 {
@@ -148,9 +147,8 @@ th {
 }
 
 #disqualification {
-	padding-top: 20px;
-	margin-top: 20px; /* Відступ від попередньої секції */
-	height: calc(100vh - 400px);
+	padding-top: 0%;
+	margin-top: 0%; /* Відступ від попередньої секції */
 }
 
 
@@ -161,8 +159,8 @@ th {
  }
 
  #merits {
-	padding-top: 20px;
-	margin-top: 20px; /* Відступ від попередньої секції */
+	padding-top: 0%;
+	margin-top: 5%; /* Відступ від попередньої секції */
 }
 
 #Img3 {
@@ -202,4 +200,5 @@ footer {
 	font-weight: bold;
 	height: 100px;
 	padding-top: 50px;
+    width: 100%;
 }
