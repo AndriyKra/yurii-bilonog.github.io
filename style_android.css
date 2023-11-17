@@ -1,0 +1,158 @@
+body {
+    font-family: Times New Roman;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu-toggle {
+    display: none;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav.active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    nav.active ul li {
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+}
+
+/* Останній елемент меню не отримує розділювач */
+nav ul li:last-child::after {
+    content: none;
+}
+
+/* Оновлені стилі для інших елементів сторінки */
+#Img1 {
+    float: none;
+    margin: 10px auto 0;
+    padding: 0;
+    border: none;
+    height: auto;
+}
+
+#Zah1 {
+    font-size: 36px;
+    text-align: center;
+    padding-left: 0;
+}
+
+hr {
+    padding-left: 20%;
+    padding-right: 20%;
+    border: 5px solid #FFCB25;
+}
+
+.line1 {
+    width: 80%;
+    border-radius: 0;
+    padding-left: 10%;
+}
+
+#P12,
+#P1 {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#sport,
+#disqualification,
+#merits,
+#dzherela {
+    padding-top: 20px;
+}
+
+#Img2,
+#Img3 {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    height: auto;
+}
+
+#Div2,
+#Div4,
+#Div5 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#P2 {
+    font-size: 18px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+#Zaslugu li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: 18px;
+}
