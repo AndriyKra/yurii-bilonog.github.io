@@ -13,6 +13,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1;
+    display: none; /* Додано для приховання меню за замовчуванням */
 }
 
 nav ul {
@@ -35,7 +36,7 @@ nav a {
 }
 
 .menu-toggle {
-    display: none;
+    display: block;
     background-color: #333;
     color: white;
     border: none;
@@ -43,25 +44,14 @@ nav a {
     cursor: pointer;
 }
 
+/* Змінено для з'яви меню на весь екран */
 @media only screen and (max-width: 768px) {
     nav {
-        display: none;
-    }
-
-    .menu-toggle {
         display: block;
-    }
-
-    nav.active {
-        display: block;
-        position: absolute;
-        top: 60px;
-        left: 0;
         width: 100%;
-        background-color: #333;
     }
 
-    nav.active ul li {
+    nav ul li {
         text-align: center;
     }
 
@@ -138,6 +128,7 @@ h1 {
 #P2 {
     font-size: 18px;
 }
+
 
 table {
     width: 100%;
