@@ -140,12 +140,19 @@ h1 {
 }
 
 table {
-    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-th,
-td {
-    padding: 5px;
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
 }
 
 #Zaslugu li {
@@ -154,5 +161,11 @@ td {
 }
 
 footer {
-    font-size: 18px;
+   background-color: #FFCB25;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	height: 100px;
+	padding-top: 50px;
+    width: 100%;
 }
