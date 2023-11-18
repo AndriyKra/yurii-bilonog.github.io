@@ -2,6 +2,7 @@ body {
     font-family: Times New Roman;
     margin: 0;
     padding: 0;
+	text-color: #000000;
 }
 .mobile-menu {
   background-color: #FFFFFF;
