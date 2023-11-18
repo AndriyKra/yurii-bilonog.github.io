@@ -108,13 +108,20 @@ h1 {
     padding-top: 20px;
 }
 
-#Img2,
-#Img3 {
+#Img2{
     float: none;
     margin: 0 auto;
     padding: 0;
     border: none;
     height: auto;
+}
+
+#Img3 {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    width: 100%;
 }
 
 #Div2,
