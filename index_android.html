@@ -13,6 +13,11 @@
 		    // Якщо користувач не використовує мобільний пристрій
 		    window.location.href = 'index.html';
 		}
+	function toggleMenu() {
+  var menuItems = document.querySelector('.menu-items');
+  menuItems.classList.toggle('show');
+}
+</script>
 	</head>
 	<body>
 	<div class="mobile-menu">
@@ -110,12 +115,7 @@
 		 <footer>
         	&copy; 2023 Кравчук Андрій
     	</footer>
-<script >
-	function toggleMenu() {
-  var menuItems = document.querySelector('.menu-items');
-  menuItems.classList.toggle('show');
-}
-</script>
+
 
 
 
