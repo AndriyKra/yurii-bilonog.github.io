@@ -5,6 +5,14 @@
 		href="style_android.css" media="all" />
 		<title>Юрій Білоног</title>
 		<meta name="viewport" content="width=500">
+		<script>
+		if (/Mobi|Android/i.test(navigator.userAgent)) {
+		    // Якщо користувач використовує мобільний пристрій
+		    window.location.href = 'index_android.html';
+		} else {
+		    // Якщо користувач не використовує мобільний пристрій
+		    window.location.href = 'index.html';
+		}
 	</head>
 	<body>
 	<div class="mobile-menu">
