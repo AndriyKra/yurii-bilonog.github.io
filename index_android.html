@@ -5,26 +5,17 @@
 		href="style_android.css" media="all" />
 		<title>Юрій Білоног</title>
 		<meta name="viewport" content="width=500">
-		<script>
-			function toggleMenu() {
-    var nav = document.querySelector('.main-menu');
-    nav.classList.toggle('active');
-}
-		</script>
 	</head>
 	<body>
-		<h1>Ця версія сайту ще не дуже адаптована для телефону, але скоро ми виправимо це:)</h1>
-		<header>
-        <button class="menu-toggle" onclick="toggleMenu()">≡</button>
-        <nav class="main-menu">
-            <ul>
+	<div class="mobile-menu">
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <ul class="menu-items">
                 <li><a href="#sport">Спортивне життя</a></li>
                 <li><a href="#disqualification">Дискваліфікація</a></li>
                 <li><a href="#merits">Заслуги</a></li>
                 <li><a href="#dzherela">Джерела</a></li>
             </ul>
-        </nav>
-    </header>
+  </div>
     <section id="Section1">
 			<img id="Img1" src="Yurij-Bilonog1.png">
 			<h1 id="Zah1"> <br> Юрій <br> Білоног</h1>
@@ -111,7 +102,12 @@
 		 <footer>
         	&copy; 2023 Кравчук Андрій
     	</footer>
-
+<script >
+	function toggleMenu() {
+  var menuItems = document.querySelector('.menu-items');
+  menuItems.classList.toggle('show');
+}
+</script>
 
 
 
